@@ -200,15 +200,18 @@ section{
 }
 @media(max-width: 667px){
 	.home{
-		height: 900px;
+		height: 910px;
 		/*width: 95%;*/
 	}
 	.home_img{
-		width: 100%;
+		max-width:100%;
+   		height:auto;
 	}
 	.home_img img{
-		width: 90%;
-		margin-left: 25px;
+    	width:90%;
+    	height:auto;
+    	display:block;
+    	margin:20px auto;
 	}
 	.home_info{
 		width: 100%;
