@@ -140,7 +140,7 @@ section{
 	width: 90%;
 	text-align: center;
 	margin-left: 50px;
-	margin-top: 200px;
+	margin-top: 150px;
 	/*background-color: red;*/
 }
 .home_text h1{
@@ -256,7 +256,7 @@ section{
 	/*background-color: yellow;*/
 }
 .about_info h1{
-	margin-top: 120px;
+	margin-top: 50px;
 	color: #e81cb5;
 }
 .about_info h2{
@@ -264,7 +264,7 @@ section{
 	color: #222222;
 }
 .about_para{
-	height: 60px;
+	height: auto;
 	width: 80%;
 	border-radius: 10px;
 	margin-bottom: 20px;
@@ -315,17 +315,18 @@ section{
 	width: 100%;
 }
 .skill_box1{
-	height: 70px;
-	width: 23%;
+	height: 60px;
+	width: auto;
 	float: left;
 	border-radius: 15px;
 	/*border: 0.1px solid #faf5f9;*/
 	box-shadow: 0px 0px 1px 0px gray;
 	margin-left: 10px;
-	margin-top: 20px;
+	margin-top: 10px;
 }
 .skill_box1:hover{
 	border: none;
+	background-color: #f5e1f3;
 	box-shadow: 0px 1px 1px 0px rgba(0,0,0,0.3);
 }
 .skill_box1 h2{
