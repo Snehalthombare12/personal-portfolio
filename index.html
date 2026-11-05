@@ -21,14 +21,14 @@
 				<button><i class="fa-solid fa-list"></i></button>
 			</div>
 			<div class="top_menu_links">
-				<ul>
-					<li><a href="#home">Home</a></li>
-					<li><a href="#about">About</a></li>
-					<li><a href="#resume">Certifications</a></li>
-					<li><a href="#project">Project</a></li>
-					<li><a href="#contact">Contact</a></li>
-				</ul>
-			</div>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#certificationsmenu">Certifications</a></li>
+                    <li><a href="#project">Project</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
 		</div>
 	</nav>
 	<section class="home" id="home">
@@ -129,28 +129,161 @@
 		</div>
 	</section>
 
-	<section class="projects" id="project">
-   <h1><i class="fa-solid fa-diagram-project"></i>My Project</h1>
 
-   <div class="project_container">
+	<!-- Certifications Section -->
 
-         <h2>Personal Portfolio Website</h2>
+<section class="certifications" id="certificationsmenu">
 
-        <p>
-            Designed and developed a responsive personal portfolio website using HTML, CSS, and JavaScript. 
-            This project includes Home, About, Skills, and Resume sections with mobile-friendly design.
-        </p>
+    <h1>
+        <i class="fa-solid fa-certificate"></i> My Certifications
+    </h1>
 
-        <h3>Technologies Used:</h3>
-        <p>HTML | CSS | JavaScript</p>
+    <div class="certificate_container">
 
-        <button>Current Project</button>
-        <div class="project_btn">
-      		<a href="#">View Code</a>
-     		<a href="#">Live Demo</a>
-   		</div>
-   </div>
+        <div class="certificate_card">
+            <i class="fa-brands fa-html5"></i>
+            <h2>HTML Certificate</h2>
+            <p>A2Z IT HUB</p>
+            <a href="certificates/html.png" target="_blank">
+                View Certificate
+            </a>
+        </div>
+
+        <div class="certificate_card">
+            <i class="fa-brands fa-css3-alt"></i>
+            <h2>CSS Certificate</h2>
+            <p>A2Z IT HUB</p>
+            <a href="certificates/css.png" target="_blank">
+                View Certificate
+            </a>
+        </div>
+		<div class="certificate_card">
+            <i class="fa-brands fa-css3-alt"></i>
+            <h2>Bootstrap Certificate</h2>
+            <p>A2Z IT HUB</p>
+            <a href="certificates/bootstrap.png" target="_blank">
+                View Certificate
+            </a>
+        </div>
+		<div class="certificate_card">
+            <i class="fa-brands fa-css3-alt"></i>
+            <h2>JavaScript Certificate</h2>
+            <p>A2Z IT HUB</p>
+            <a href="certificates/javascript.png" target="_blank">
+                View Certificate
+            </a>
+        </div>
+		<div class="certificate_card">
+            <i class="fa-brands fa-css3-alt"></i>
+            <h2>Software Testing Certificate</h2>
+            <p>Udemy</p>
+            <a href="certificates/software testing.jpeg" target="_blank">
+                View Certificate
+            </a>
+        </div>
+		<div class="certificate_card">
+            <i class="fa-brands fa-css3-alt"></i>
+            <h2>Ethical Hacking Certificate</h2>
+            <p>EduSkills</p>
+            <a href="certificates/ethical hacking.png" target="_blank">
+                View Certificate
+            </a>
+        </div>
+    </div>
+
+    <button class="back_btn" onclick="document.querySelector('.certificate_container').scrollBy({right: 200, behavior: 'smooth'})">
+		<i class="fa-solid fa-chevron-left"></i>
+    </button>
+
+    <button class="next_btn" onclick="document.querySelector('.certificate_container').scrollBy({left: 200, behavior: 'smooth'})">
+        <i class="fa-solid fa-chevron-right"></i>
+    </button>
+
 </section>
+
+
+    <!-- project section -->
+	<section class="projects" id="project">
+
+    <h1>
+        <i class="fa-solid fa-diagram-project"></i> My Projects
+    </h1>
+
+    <div class="project_grid">
+
+        <!-- Project 1 -->
+        <div class="project_container">
+
+            <h2>Personal Portfolio Website</h2>
+
+            <p>
+                Designed and developed a responsive personal portfolio
+                website using HTML, CSS, and JavaScript.
+            </p>
+
+            <h3>Technologies Used:</h3>
+
+            <p>HTML | CSS | JavaScript | Bootstrap</p>
+
+            <button>Completed</button>
+
+            <div class="project_btn">
+                <a href="https://github.com/Snehalthombare12/personal-portfolio" target="_blank">View Code</a>
+                <a href="https://snehalthombare12.github.io/personal-portfolio/" target="_blank">Live Demo</a>
+            </div>
+
+        </div>
+
+        <!-- Project 2 -->
+        <div class="project_container">
+
+            <h2>Student Information Management System</h2>
+
+            <p>
+                Developed a student information management system
+                using Python and Flask to manage student records.
+            </p>
+
+            <h3>Technologies Used:</h3>
+
+            <p>Python | Flask | HTML | CSS</p>
+
+            <button>Completed</button>
+
+            <div class="project_btn">
+                <a href="#">View Code</a>
+            </div>
+
+        </div>
+
+        <!-- Project 3 -->
+        <div class="project_container">
+
+            <h2>Student Management System</h2>
+
+            <p>
+                Developed a full-stack student management system
+                with CRUD operations to manage student records.
+            </p>
+
+            <h3>Technologies Used:</h3>
+
+            <p>Node.js | Express.js | EJS | MySQL</p>
+
+            <button>Completed</button>
+
+            <div class="project_btn">
+                <a href="https://github.com/Snehalthombare12/student-management-system" target="_blank">View Code</a>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- contact section -->
 <section class="contact" id="contact">
    <h1><i class="fa-solid fa-envelope"></i> Contact Me</h1>
 
@@ -184,6 +317,8 @@
    </div>
 </section>
 
+
+<!-- footer section -->
 <footer>
    <h2>Snehal Thombare</h2>
 
